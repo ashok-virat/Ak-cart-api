@@ -17,7 +17,7 @@ const orderreqpath=require('./../models/orderreq');
 const orderreqModel=mongoose.model('orderrequest');
 const orderpath=require('./../models/order');
 const orderModel=mongoose.model('order');
-const userpath=require('./../models/UserModel');
+const userpath=require('./../models/userModel');
 const UserModel= mongoose.model('UserModel');
 
 //signup function is start

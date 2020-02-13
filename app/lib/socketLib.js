@@ -4,7 +4,7 @@ const mongoose=require('mongoose');
 
 const check=require('./../lib/checkLib');
 const redisLib=require('./../lib/redisLib');
-const userpath=require('./../models/UserModel');
+const userpath=require('./../models/userModel');
 const UserModel= mongoose.model('UserModel');
 
 let setServer=(server)=>{
